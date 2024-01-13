@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #555;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 15vh;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.icon:hover{
+    background: black;
+}
+.icon i{
+    font-size: 40px;
+    color: white;
+}
+.active-icon{
+    background-color: #04AA6D;
+}
+.active-icon:hover{
+    background-color: #04AA6D;
+}
