@@ -13,7 +13,7 @@ Here I Upload daily one new project to maintain my consistency and enhance my co
 
 I'm actively post new projects daily on this repo, and once I finish all of them, I'll be updating this README to provide more detailed information about all projects.
 
-<font style="color:green">__Stay tuned for more exciting projects!__</font>
+__Stay tuned for more exciting projects!__
 
 
 > Source: [W3Schools](https://www.w3schools.com/howto/) <br />
