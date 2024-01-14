@@ -1,4 +1,4 @@
-# <font style="color:red">Daily Dev Chronicle</font>
+# Daily Dev Chronicle
 
 Welcome to my Daily Dev Chronicle!
 
