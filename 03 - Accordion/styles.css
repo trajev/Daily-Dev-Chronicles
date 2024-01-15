@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.section-div{
+    font-family: "calibri";
+    background-color: gainsboro;
+    color: #444;
+    cursor: pointer;
+}
+.section-div > #section1, #section2, #section3{
+    transition: 0.4s ease;
+    padding: 20px 30px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-div #section1:hover, #section2:hover, #section3:hover{
+    background-color: #ccc;
+}
+
+.section-symbol{
+    font-size: 28px;
+}
+.content{
+    font-size: 18px;
+    color: black
+}
+
+.section-div > #expand-section1, #expand-section2, #expand-section3   {
+    padding: 20px 30px;
+    background-color: white;
+    display: none;
+    transition: 2s ease-in-out;
+}
+
