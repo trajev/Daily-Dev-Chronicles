@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+}
+
+.bar{
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+}
+.tab{
+    padding: 20px ;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+.active{
+    background-color: #ccc;
+}
+.tab:hover{
+    background-color: #ddd;
+}
+
+#content{
+    font-family: sans-serif;
+    border: 1px solid #ddd;
+}
+#heading{
+    padding: 30px 20px 10px 20px;
+    font-size: 24px;
+    
+}
+#capital{
+    padding: 10px 20px 30px 20px;
+    font-size: 20px;
+}
