@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    display: flex;
+}
+
+#bar{
+    width: 20vw;
+    background-color: #f1f1f1;
+    border-right: 2px solid #e2dfdf;
+}
+.tab{
+    padding: 30px 20px;
+    cursor: pointer;
+}
+.tab:hover{
+    background-color: #bbb;
+}
+#details{
+    padding: 30px;
+}
+#details-heading{
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+#details-content{
+    font-size: 20px;
+    font-weight: normal;
+}
+.active{
+    background-color: #bbb;
+}
