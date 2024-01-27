@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: #ccc;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    padding-right: 20px;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.active{
+    color: white;
+    background-color: #2196F3;
+}
+ul li:hover:not(.active){
+    background-color: #ddd;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar span{
+    background-color: #ddd;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+}
+.search-bar span:hover{
+    background-color: #ccc;
+}
+
+.search-bar input{
+    padding: 8px;
+    font-size: 18px;
+    border: none;
+}
+
+
