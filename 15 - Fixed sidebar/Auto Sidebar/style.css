@@ -1,0 +1,50 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.sidebar ul{
+    background-color: #eee;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    padding: 20px;
+}
+.sidebar ul li{
+    font-size: 22px;
+    color: #2196F3;
+    cursor: pointer;
+}
+.sidebar ul li:hover{
+    color: #064579;
+}
+
+.content{
+    width : 80vw;
+    padding: 40px 20px;
+}
+.content-heading{
+    font-size: 36px;
+}
+.content-details{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px ;
+    flex-wrap: wrap;
+}
