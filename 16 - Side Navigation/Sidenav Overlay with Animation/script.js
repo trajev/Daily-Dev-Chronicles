@@ -3,8 +3,8 @@ let sideNav = document.getElementById("side-nav");
 let menuBtn = document.getElementById("icon-menu");
 
 closeBtn.addEventListener( "click" , function(){
-    sideNav.style.width= "0px";
+    sideNav.style.display = "none";
 })  
 menuBtn.addEventListener( "click" , function(){
-    sideNav.style.width= "250px";
+    sideNav.style.display = "block";
 })
